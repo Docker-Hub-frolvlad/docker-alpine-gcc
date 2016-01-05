@@ -1,3 +1,7 @@
+[![Docker Stars](https://img.shields.io/docker/stars/frolvlad/alpine-gcc.svg?style=flat-square)](https://hub.docker.com/r/frolvlad/alpine-gcc/)
+[![Docker Pulls](https://img.shields.io/docker/pulls/frolvlad/alpine-gcc.svg?style=flat-square)](https://hub.docker.com/r/frolvlad/alpine-gcc/)
+
+
 C/C++ (GCC) Docker image
 ========================
 
