@@ -2,11 +2,11 @@
 [![Docker Pulls](https://img.shields.io/docker/pulls/frolvlad/alpine-gcc.svg?style=flat-square)](https://hub.docker.com/r/frolvlad/alpine-gcc/)
 
 
-C/C++ (GCC) Docker image
-========================
+C (GCC) Docker image
+====================
 
 This image is based on Alpine Linux image, which is only a 5MB image, and contains
-[C/C++ compilers](https://gcc.gnu.org/) (gcc/g++ packages).
+[C compiler](https://gcc.gnu.org/) (GCC package).
 
 Download size of this image is only:
 
