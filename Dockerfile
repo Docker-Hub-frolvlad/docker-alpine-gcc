@@ -1,3 +1,3 @@
 FROM alpine:3.5
 
-RUN apk add --no-cache g++
+RUN apk add --no-cache g++ musl-dev
