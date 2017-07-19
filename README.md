@@ -12,6 +12,7 @@ Download size of this image is only:
 
 [![](https://images.microbadger.com/badges/image/frolvlad/alpine-gcc.svg)](http://microbadger.com/images/frolvlad/alpine-gcc "Get your own image badge on microbadger.com")
 
+NOTE: If you are looking for C++ (GCC) Docker image, there is one: [`frolvlad/alpine-gxx`](https://hub.docker.com/r/frolvlad/alpine-gxx/)
 
 Usage Example
 -------------
