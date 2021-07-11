@@ -8,9 +8,7 @@ C (GCC) Docker image
 This image is based on Alpine Linux image, which is only a 5MB image, and contains
 [C compiler](https://gcc.gnu.org/) (GCC package).
 
-Download size of this image is only:
-
-[![](https://images.microbadger.com/badges/image/frolvlad/alpine-gcc.svg)](http://microbadger.com/images/frolvlad/alpine-gcc "Get your own image badge on microbadger.com")
+This image is only 130MB on disk.
 
 NOTE: If you are looking for C++ (GCC) Docker image, there is one: [`frolvlad/alpine-gxx`](https://hub.docker.com/r/frolvlad/alpine-gxx/)
 
