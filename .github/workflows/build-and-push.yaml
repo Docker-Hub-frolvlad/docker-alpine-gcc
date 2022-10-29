@@ -28,5 +28,8 @@ jobs:
         name: Build and push
         uses: docker/build-push-action@v3
         with:
+          pull: true
           push: true
           tags: frolvlad/alpine-gcc:latest
+          cache-from: type=registry,ref=frolvlad/alpine-gcc:latest
+          cache-to: type=inline
