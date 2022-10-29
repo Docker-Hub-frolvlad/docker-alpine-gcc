@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - 'master'
+  schedule:
+    # Daily
+    - cron: '0 0 * * *'
 
 jobs:
   docker:
@@ -26,4 +29,4 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: frolvlad/${{ github.event.repository.name }}:latest
+          tags: frolvlad/alpine-gcc:latest
